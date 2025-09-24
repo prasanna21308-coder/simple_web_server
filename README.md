@@ -23,6 +23,7 @@ Testing the webserver.
 # PROGRAM:
 ```
 web.py
+
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <!DOCTYPE html>
@@ -54,6 +55,7 @@ httpd.serve_forever()
 
 # OUTPUT:
 ![alt text](<Screenshot (23).png>)
+
 ![alt text](<Screenshot (24).png>)
 
 # RESULT:
